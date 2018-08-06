@@ -1,6 +1,6 @@
 # Arduino (True Core) - Mediatek MT2625 - Quectel BC66
 
-A few words in the beginning:
+**A few words in the beginning**
 * This is not an official product of Mediatek / Quectel
 * The project is based on Quectel OpenCPU and reverse engineering
 * The port  is bound to the firmware version
@@ -31,14 +31,14 @@ https://www.quectel.com/product/bc66.htm
 * Firmware: BC66NAR01A03_OCPU_BETA0426
 
 
-**Tools:**
+**Tools**
 * Arduino IDE:
 https://www.arduino.cc/
 * GCC Linaro - last version
 https://releases.linaro.org/components/toolchain/gcc-linaro/latest/
 
 
-**Arduino:**
+**Arduino**
  * Standart C/C++ Core
  * Periphery: 
     * GPIO: 17 pins max
@@ -48,18 +48,21 @@ https://releases.linaro.org/components/toolchain/gcc-linaro/latest/
     * SPI: 1
     * I2C: 1
     * USB
-Libraries:
-* Peripheries 
-* TCP Clent Socket
-* SSL/TLS
-* HTTP/S Client
-* MQTT
-* CoAP(feature)
-* LWM2M(feature)
+* Libraries:
+   * Peripheries 
+   * EEPROM
+   * TCP Clent Socket
+   * SSL/TLS Client
+   * HTTP/S Client
+   * MQTT
+   * CoAP(feature)
+   * LWM2M(feature)
+   * Other...
   
   
 
-PC Operating system: Windows, Linux... whatever you choose... Arduino IDE + GCC
+**PC Operating system:** 
+Windows, Linux... whatever you choose... Arduino IDE + GCC
 
 **If you want to help/support - contact me**
 
