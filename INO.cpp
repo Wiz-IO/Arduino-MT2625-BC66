@@ -9,15 +9,14 @@
 /* TIMER TEST */
 TimerHandle_t timer;
 void timer_callback(TimerHandle_t xTimer) {
-	TRACE("[API] timer_callback( %u ) %d", xTimer, millis());
+	TRACE("[API] timer_callback() %d", millis()); /* 10 sec */
 }
 
 /* TASK TEST */
 TaskHandle_t WizIO_TaskHandle;
 static portTASK_FUNCTION( WizIO_Task, pvParameters) {
 	timer = xTimerCreate("WizIO TIMER", 1000 /* 10 sec */, 1, NULL, timer_callback);
-	xTimerGenericCommand(timer, 1, 0, 0, 0);
-	TRACE("[API] xTimerGenericCommand( %u )", timer);
+	xTimerGenericCommand(timer, 1, 0, 0, 0); // xTimerStart()
 	while (1) {
 		TRACE("[API] pcTaskGetTaskName() %s", pcTaskGetTaskName(WizIO_TaskHandle));
 		vTaskDelay(3000); // 30 sec
