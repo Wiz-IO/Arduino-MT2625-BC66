@@ -41,7 +41,7 @@ https://releases.linaro.org/components/toolchain/gcc-linaro/latest/
 * Firmware/Application Uploader: Quectel IoT Flash Tool
 
 
-**Arduino Port**
+**Arduino Port** (in progress, GCC+Eclipse IDE)
  * Standart C/C++ Core
  * Multitasking
  * Periphery: 
