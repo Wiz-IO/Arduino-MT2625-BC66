@@ -25,11 +25,12 @@ https://www.mediatek.com/products/nbIot/mt2625
 **Module: Quectel BC66**
 is a high-performance, multi-band NB-IoT module...
 https://www.quectel.com/product/bc66.htm
-* Test Board for the project: BC66-TE-B ( it is shield Arduino, unfortunately... board.jpg )
+* Test Board for the project: BC66-TE-B ( it is shield Arduino, unfortunately... )
 * API: OpenCPU, native C, EAT (Embedded AT) oriented (70 function), static lib
 * My Extended API, native C/C++, more than 300 function, static lib
 * Firmware: BC66NAR01A03_OCPU_BETA0426
 
+https://raw.githubusercontent.com/Wiz-IO/Arduino_MT2625_BC66/master/board.jpg
 
 **Tools**
 * Arduino IDE:
@@ -66,6 +67,8 @@ https://releases.linaro.org/components/toolchain/gcc-linaro/latest/
 
 **PC Operating system:** 
 Windows, Linux... whatever you choose... Arduino IDE + GCC
+
+https://raw.githubusercontent.com/Wiz-IO/Arduino_MT2625_BC66/master/trace.jpg
 
 **If you want to help/support - contact me**
 
