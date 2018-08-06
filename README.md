@@ -1,5 +1,4 @@
-# Arduino_MT2625_BC66
-Arduino - Mediatek MT2625 - Quectel BC66
+# Arduino - Mediatek MT2625 - Quectel BC66
 
 
 A few words in the beginning:
