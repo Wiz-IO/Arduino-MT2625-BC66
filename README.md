@@ -36,7 +36,7 @@ https://www.quectel.com/product/bc66.htm
 https://www.arduino.cc/
 * GCC Linaro - last version
 https://releases.linaro.org/components/toolchain/gcc-linaro/latest/
-* Firmware/Application Uploader: Quectel
+* Firmware/Application Uploader: Quectel IoT Flash Tool
 
 
 **Arduino Port**
