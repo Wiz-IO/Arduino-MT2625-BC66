@@ -1,0 +1,18 @@
+# WizIO 2018 Georgi Angelov
+# https:\\github.com\Wiz-IO
+# the.wizarda@gmail.com
+#
+# Arduino Core and platform.
+# For more info:
+# https:\\github.com\arduino\Arduino\wiki\Arduino-IDE-1.5---3rd-party-Hardware-specification
+
+name=WizIO Boards BC66-TA-B
+version=1.0.0
+
+compiler.path={build.compiler_path}
+compiler.c.cmd=arm-eabi-gcc
+compiler.cpp.cmd=arm-eabi-g++
+compiler.c.elf.cmd=arm-eabi-g++
+compiler.ar.cmd=arm-eabi-ar
+compiler.objcopy.cmd=arm-eabi-objcopy
+compiler.size.cmd=arm-eabi-size
