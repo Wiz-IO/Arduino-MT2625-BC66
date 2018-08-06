@@ -30,7 +30,7 @@ https://www.quectel.com/product/bc66.htm
 * My Extended API, native C/C++, more than 300 function, static lib
 * Firmware: BC66NAR01A03_OCPU_BETA0426
 
-https://raw.githubusercontent.com/Wiz-IO/Arduino_MT2625_BC66/master/board.jpg
+![ScreenShot](https://raw.githubusercontent.com/Wiz-IO/Arduino_MT2625_BC66/master/board.jpg)
 
 **Tools**
 * Arduino IDE:
@@ -68,7 +68,7 @@ https://releases.linaro.org/components/toolchain/gcc-linaro/latest/
 **PC Operating system:** 
 Windows, Linux... whatever you choose... Arduino IDE + GCC
 
-https://raw.githubusercontent.com/Wiz-IO/Arduino_MT2625_BC66/master/trace.jpg
+![ScreenShot](https://raw.githubusercontent.com/Wiz-IO/Arduino_MT2625_BC66/master/trace.jpg)
 
 **If you want to help/support - contact me**
 
