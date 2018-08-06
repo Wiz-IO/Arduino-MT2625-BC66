@@ -1,9 +1,10 @@
-# Arduino - Mediatek MT2625 - Quectel BC66
-
+# Arduino (True Core) - Mediatek MT2625 - Quectel BC66
 
 A few words in the beginning:
 * This is not an official product of Mediatek / Quectel
 * The project is based on Quectel OpenCPU and reverse engineering
+* The port  is bound to the firmware version
+* and sorry for my English
 
 Chipset Mediatek MT2625 SoC
 https://www.mediatek.com/products/nbIot/mt2625
@@ -19,5 +20,15 @@ https://www.mediatek.com/products/nbIot/mt2625
 
 Module: Quectel BC66
 https://www.quectel.com/product/bc66.htm
-* Board: BC66-TE-B (it is shield Arduino, unfortunately)
-* API: OpenCPU +
+* Board: BC66-TE-B (it is shield Arduino, unfortunately...)
+* API: OpenCPU, native C, EAT (Embedded AT) oriented (70 function), static lib
+* My Extended API, native C/C++, more than 300 function, static lib
+* Firmware: BC66NAR01A03_OCPU_BETA0426
+
+Tools:
+* Arduino IDE:
+https://www.arduino.cc/
+* GCC Linaro - last version
+https://releases.linaro.org/components/toolchain/gcc-linaro/latest/
+
+PC Operating system: Windows, Linux... whatever you choose... Arduino IDE + GCC
