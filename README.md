@@ -1,11 +1,11 @@
 # Arduino (True Core) - Mediatek MT2625 - Quectel BC66
 
 **A few words in the beginning**
-* This is not an official product of Mediatek / Quectel
-* The project is based on Quectel OpenCPU and reverse engineering
-* The port  is bound to the firmware version
+* This project not an official product of Mediatek / Quectel
+* The project is based on Quectel OpenCPU and Reverse Engineering ( a lot of time )
+* The port is bound to the firmware version
 * I have not LTE NB/CAT network for now (in Bulgaria, comming soon...) And I can not test the network features, but they have to work
-* and sorry for my English
+* and sorry for my English...
 
 
 **Chipset Mediatek MT2625 SoC**
@@ -15,7 +15,7 @@ https://www.mediatek.com/products/nbIot/mt2625
 * Modem DSP: unknown, NB / CAT1
 * RAM: 4M
 * ROM: 4M
-* IO: GPIO, SPI, I2C, I2S, PCM, SDIO, UART, USB...
+* IO: GPIO, SPI, I2C, I2S, PCM, SDIO, UART, USB
 * OS: FreeRTOS
 * NET: LwIP
 * SSL: mbedtls
@@ -38,7 +38,7 @@ https://www.quectel.com/product/bc66.htm
 https://www.arduino.cc/
 * GCC Linaro - last version
 https://releases.linaro.org/components/toolchain/gcc-linaro/latest/
-* Firmware/Application Uploader: Quectel IoT Flash Tool
+* Firmware / Application Uploader: Quectel IoT Flash Tool
 
 
 **Arduino Port** (in progress, GCC+Eclipse IDE)
@@ -71,6 +71,6 @@ Windows, Linux... whatever you choose... Arduino IDE + GCC
 
 ![ScreenShot](https://raw.githubusercontent.com/Wiz-IO/Arduino_MT2625_BC66/master/trace.jpg)
 
-**If you want to help/support - contact me**
+**If you want to help / support - contact me**
 
 # Comming soon...
