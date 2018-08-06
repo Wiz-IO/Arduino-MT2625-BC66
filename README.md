@@ -14,8 +14,8 @@ https://www.mediatek.com/products/nbIot/mt2625
 * Applications CPU: ARM Cortex-M 104 MHz 
 * Modem DSP: unknown, NB / CAT1
 * RAM: 4M
-* FLASH: 4M
-* IO: GPIO, I2C, I2S, PCM, SDIO, UART, USB...
+* ROM: 4M
+* IO: GPIO, SPI, I2C, I2S, PCM, SDIO, UART, USB...
 * OS: FreeRTOS
 * NET: LwIP
 * SSL: mbedtls
@@ -28,6 +28,7 @@ https://www.quectel.com/product/bc66.htm
 * Test Board for the project: BC66-TE-B ( it is shield Arduino, unfortunately... )
 * API: OpenCPU, native C, EAT (Embedded AT) oriented (70 function), static lib
 * My Extended API, native C/C++, more than 300 function, static lib
+* User Application Size: ROM (BIN) 200k, RAM 100k
 * Firmware: BC66NAR01A03_OCPU_BETA0426
 
 ![ScreenShot](https://raw.githubusercontent.com/Wiz-IO/Arduino_MT2625_BC66/master/board.jpg)
