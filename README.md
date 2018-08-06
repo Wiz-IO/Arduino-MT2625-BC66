@@ -32,6 +32,27 @@ https://www.arduino.cc/
 * GCC Linaro - last version
 https://releases.linaro.org/components/toolchain/gcc-linaro/latest/
 
+Arduino:
+ * Standart Core
+ * Periphery: 
+    * GPIO: 17 pins max
+    * ADC: 1 pin
+    * UART: 3
+    * PWM: 1
+    * SPI: 1
+    * I2C: 1
+    * USB
+Libraries:
+* Peripheries 
+* TCP Clent Socket
+* SSL/TLS
+* HTTP/S Client
+* MQTT
+* CoAP(feature)
+* LWM2M(feature)
+  
+  
+
 PC Operating system: Windows, Linux... whatever you choose... Arduino IDE + GCC
 
 # If you want to help/support - contact me
