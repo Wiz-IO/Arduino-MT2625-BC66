@@ -30,6 +30,7 @@ https://www.quectel.com/product/bc66.htm
 * My Extended API, native C/C++, more than 300 function, static lib
 * Firmware: BC66NAR01A03_OCPU_BETA0426
 
+./board.jpg
 
 **Tools**
 * Arduino IDE:
