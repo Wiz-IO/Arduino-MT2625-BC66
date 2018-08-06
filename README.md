@@ -7,7 +7,9 @@ A few words in the beginning:
 * I have not LTE NB/CAT network for now (in Bulgaria, comming soon...) And I can not test the network features, but they have to work
 * and sorry for my English
 
-Chipset Mediatek MT2625 SoC
+
+# Chipset Mediatek MT2625 SoC
+Ultra-low power, 3GPP Release-14 enabled NB-IoT platform for wide-ranging home, civic, industrial or mobile applications
 https://www.mediatek.com/products/nbIot/mt2625
 * Applications CPU: ARM Cortex-M 104 MHz 
 * Modem DSP: unknown, NB / CAT1
@@ -19,21 +21,25 @@ https://www.mediatek.com/products/nbIot/mt2625
 * SSL: mbedtls
 * Clinets: HTTP/S, MQTT, COAP, LWM2M 
 
-Module: Quectel BC66
+
+# Module: Quectel BC66 
+is a high-performance, multi-band NB-IoT module...
 https://www.quectel.com/product/bc66.htm
 * Test Board for the project: BC66-TE-B (it is shield Arduino, unfortunately...)
 * API: OpenCPU, native C, EAT (Embedded AT) oriented (70 function), static lib
 * My Extended API, native C/C++, more than 300 function, static lib
 * Firmware: BC66NAR01A03_OCPU_BETA0426
 
-Tools:
+
+# Tools:
 * Arduino IDE:
 https://www.arduino.cc/
 * GCC Linaro - last version
 https://releases.linaro.org/components/toolchain/gcc-linaro/latest/
 
-Arduino:
- * Standart Core
+
+# Arduino:
+ * Standart C/C++ Core
  * Periphery: 
     * GPIO: 17 pins max
     * ADC: 1 pin
