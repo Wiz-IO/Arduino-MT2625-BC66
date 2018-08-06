@@ -21,7 +21,7 @@ https://www.mediatek.com/products/nbIot/mt2625
 
 Module: Quectel BC66
 https://www.quectel.com/product/bc66.htm
-* Board: BC66-TE-B (it is shield Arduino, unfortunately...)
+* Test Board for the project: BC66-TE-B (it is shield Arduino, unfortunately...)
 * API: OpenCPU, native C, EAT (Embedded AT) oriented (70 function), static lib
 * My Extended API, native C/C++, more than 300 function, static lib
 * Firmware: BC66NAR01A03_OCPU_BETA0426
@@ -34,5 +34,5 @@ https://releases.linaro.org/components/toolchain/gcc-linaro/latest/
 
 PC Operating system: Windows, Linux... whatever you choose... Arduino IDE + GCC
 
-
-# comming soon...
+# If you want to help/support - contact me
+# Comming soon...
