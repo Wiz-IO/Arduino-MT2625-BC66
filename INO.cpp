@@ -24,15 +24,15 @@ static portTASK_FUNCTION( WizIO_Task, pvParameters) {
 	}
 }
 
-String S;
+String str;
 void setup() {
-	S = "Arduino ";
-	S += "2018 Georgi Angelov";
-	TRACE("[INO] %s", S.c_str());
-	int r = xTaskGenericCreate(WizIO_Task, "WizIO TASK", 1024, NULL, TASK_PRIORITY_NORMAL, &WizIO_TaskHandle, NULL, NULL);
-	TRACE("[API] xTaskGenericCreate( %d )", r);
+	str = "Arduino ";
+	str += "2018 Georgi Angelov";
+	TRACE("[INO] %s", str.c_str());
+	int rc = xTaskGenericCreate(WizIO_Task, "WizIO TASK", 1024, NULL, TASK_PRIORITY_NORMAL, &WizIO_TaskHandle, NULL, NULL);
+	TRACE("[API] xTaskGenericCreate( %d )", rc);
 	Serial.begin(115200);
-	Serial.println(S);
+	Serial.println(str);
 	Serial.println("[INO] Quectel BC66 LTE NB-IoT");
 	pinMode(LED, OUTPUT);
 }
@@ -40,9 +40,9 @@ void setup() {
 void loop() {
 	static int count = 0;
 	Serial.print("[INO] SERIAL TEST: ");
-	Serial.println(millis());
+	Serial.println( millis() );
 	delay(500);
-	digitalWrite(LED, count ^ 1);
+	digitalWrite(LED, count ^ 1); // toggle led 500 mSec
 	if (++count % 10) {
 		TRACE("[APP] LOOP: %d", millis());
 	}
