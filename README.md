@@ -8,7 +8,7 @@ A few words in the beginning:
 * and sorry for my English
 
 
-# Chipset Mediatek MT2625 SoC
+**Chipset Mediatek MT2625 SoC**
 Ultra-low power, 3GPP Release-14 enabled NB-IoT platform for wide-ranging home, civic, industrial or mobile applications
 https://www.mediatek.com/products/nbIot/mt2625
 * Applications CPU: ARM Cortex-M 104 MHz 
@@ -22,7 +22,7 @@ https://www.mediatek.com/products/nbIot/mt2625
 * Clinets: HTTP/S, MQTT, COAP, LWM2M 
 
 
-# Module: Quectel BC66 
+**Module: Quectel BC66**
 is a high-performance, multi-band NB-IoT module...
 https://www.quectel.com/product/bc66.htm
 * Test Board for the project: BC66-TE-B (it is shield Arduino, unfortunately...)
@@ -31,14 +31,14 @@ https://www.quectel.com/product/bc66.htm
 * Firmware: BC66NAR01A03_OCPU_BETA0426
 
 
-# Tools:
+**Tools:**
 * Arduino IDE:
 https://www.arduino.cc/
 * GCC Linaro - last version
 https://releases.linaro.org/components/toolchain/gcc-linaro/latest/
 
 
-# Arduino:
+**Arduino:**
  * Standart C/C++ Core
  * Periphery: 
     * GPIO: 17 pins max
@@ -61,5 +61,6 @@ Libraries:
 
 PC Operating system: Windows, Linux... whatever you choose... Arduino IDE + GCC
 
-# If you want to help/support - contact me
+**If you want to help/support - contact me**
+
 # Comming soon...
