@@ -36,27 +36,30 @@ https://www.quectel.com/product/bc66.htm
 https://www.arduino.cc/
 * GCC Linaro - last version
 https://releases.linaro.org/components/toolchain/gcc-linaro/latest/
+* Firmware/Application Uploader: Quectel
 
 
-**Arduino**
+**Arduino Port**
  * Standart C/C++ Core
+ * Multitasking
  * Periphery: 
-    * GPIO: 17 pins max
-    * ADC: 1 pin
+    * GPIO: 17 pins
+    * ADC: 1
+    * PWM: 1    
     * UART: 3
-    * PWM: 1
     * SPI: 1
     * I2C: 1
     * USB
 * Libraries:
    * Peripheries 
+   * RIL, AT commands
    * EEPROM
    * TCP Clent Socket
    * SSL/TLS Client
    * HTTP/S Client
-   * MQTT
-   * CoAP(feature)
-   * LWM2M(feature)
+   * MQTT CLient
+   * CoAP (feature)
+   * LWM2M (feature)
    * Other...
   
   
