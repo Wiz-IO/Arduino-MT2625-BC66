@@ -11,7 +11,7 @@
 **Chipset Mediatek MT2625 SoC**
 Ultra-low power, 3GPP Release-14 enabled NB-IoT platform for wide-ranging home, civic, industrial or mobile applications
 https://www.mediatek.com/products/nbIot/mt2625
-* Applications CPU: ARM Cortex-M 104 MHz 
+* Applications CPU: ARM Cortex-M 156 MHz (26MHz, 78MHz, 104MHz, 156MHz)
 * Modem DSP: unknown, NB / CAT1
 * RAM: 4M
 * ROM: 4M
