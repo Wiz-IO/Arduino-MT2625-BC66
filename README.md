@@ -2,7 +2,7 @@
 
 **A few words in the beginning**
 * This project not an official product of Mediatek / Quectel
-* The project is based on Quectel OpenCPU and Reverse Engineering ( a lot of time )
+* The project is based on Quectel OpenCPU and **Reverse Engineering** ( a lot of time )
 * The port is bound to the firmware version
 * I have not LTE NB/CAT network for now (in Bulgaria, comming soon...) And I can not test the network features, but they have to work
 * and sorry for my English...
