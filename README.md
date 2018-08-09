@@ -69,7 +69,15 @@ https://releases.linaro.org/components/toolchain/gcc-linaro/latest/
 **PC Operating system:** 
 Windows, Linux... whatever you choose... Arduino IDE + GCC
 
-![ScreenShot](https://raw.githubusercontent.com/Wiz-IO/Arduino_MT2625_BC66/master/trace.jpg)
+![ScreenShot](https://raw.githubusercontent.com/Wiz-IO/Arduino_MT2625_BC66/master/progress.jpg)
+
+*Core [ready]
+*HardwareSerial [ready]
+*GPIO [ready]
+*API [in progress]
+    * STDLIB
+    * FreeRTOS
+    * RIL
 
 **If you want to help / support - contact me**
 
