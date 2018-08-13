@@ -69,7 +69,7 @@ https://releases.linaro.org/components/toolchain/gcc-linaro/latest/
 **PC Operating system:** 
 Windows, Linux... whatever you choose... Arduino IDE + GCC
 
-![ScreenShot](https://raw.githubusercontent.com/Wiz-IO/Arduino_MT2625_BC66/master/progress.jpg)
+![ScreenShot](https://raw.githubusercontent.com/Wiz-IO/Arduino_MT2625_BC66/master/Arduino.jpg)
 
 It`s working...
  * Core [ready]
