@@ -4,7 +4,7 @@
 * This project not an official product of Mediatek / Quectel
 * The project is based on Quectel OpenCPU and **Reverse Engineering** ( a lot of time )
 * The port is bound to the firmware version
-* I'm starting NB-IoT network tests soon... :)
+* I'm waithing for NB-IoT network....
 
 
 **Chipset Mediatek MT2625 SoC**
@@ -25,10 +25,12 @@ https://www.mediatek.com/products/nbIot/mt2625
 is a high-performance, multi-band NB-IoT module...
 https://www.quectel.com/product/bc66.htm
 * Test Board for the project: BC66-TE-B ( it is shield Arduino, unfortunately... )
+* Module at board BC66NA... is obsolete, will replase BC66NB... and firmvare for NB
+* Firmware: waithing for new version
 * API: OpenCPU, native C, EAT (Embedded AT) oriented (70 function), static lib
 * My Extended API, native C/C++, more than 300 function, static lib
 * User Application Size: ROM (BIN) 200k, RAM 100k
-* Firmware: BC66NAR01A03_OCPU_BETA0426
+
 
 ![ScreenShot](https://raw.githubusercontent.com/Wiz-IO/Arduino_MT2625_BC66/master/board.jpg)
 
