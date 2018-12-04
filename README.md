@@ -1,12 +1,11 @@
 # Arduino (True Core) - Mediatek MT2625 - Quectel BC66
 
-MOVED TO: https://github.com/Wiz-IO/Arduino-Quectel-BC66
+PROJECT IS MOVED TO: https://github.com/Wiz-IO/Arduino-Quectel-BC66
 
 **A few words in the beginning**
 * This project not an official product of Mediatek / Quectel
 * The project is based on Quectel OpenCPU and **Reverse Engineering** ( a lot of time )
 * The port is bound to the firmware version
-* I'm waithing for NB-IoT network....
 
 
 **Chipset Mediatek MT2625 SoC**
